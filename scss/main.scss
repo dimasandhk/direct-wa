@@ -1,0 +1,51 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+// Section Judul
+.judul {
+  margin-top: 50px;
+  h1 {
+    img {
+      width: 60px;
+      height: 60px;
+    }
+    font-weight: 600;
+  }
+  h3 {
+    span {
+      color: #29AC00;
+    }
+    font-weight: 400;
+  }
+}
+
+// Section Input
+.input {
+  margin-top: 30px;
+  input {
+    &:focus {
+      border: 1px solid #29AC00;
+      padding: 0 10px;
+    }
+    height: 50px;
+    width: 230px;
+    padding: 0 10px;
+  }
+  textarea {
+    margin-top: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  .btn-primary {
+    &:hover {
+      background-color: #249b00;
+    }
+    background-color: #29AC00;
+    border: 1px solid #29AC00;
+  }
+}
