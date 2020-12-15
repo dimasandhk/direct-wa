@@ -3,7 +3,7 @@ const selector = {
 };
 
 var typed = new Typed('.target', { // Typed JS
-  strings: ["Dimas Andhika", "@DIMAS.NGODING"],
+  strings: [", by Dimas Andhika", ", by @DIMAS.NGODING"],
   typeSpeed: 50,
   loop: true,
   backDelay: 1000,
@@ -15,7 +15,7 @@ const link = document.querySelector('.input form') // Tombol
     let valNomor = document.getElementById('nomor').value;
     let valTeks = document.getElementById('teks').value;
     let hasil = ``;
-    let spasi = valTeks.split(' ').join('%20');
+    let spasi = valTeks.replace(/ /g, '%20').replace(/(?:\r|\n|\r\n)/g, '%0A');
 
     if (valTeks !== '') {
       hasil = `https://api.whatsapp.com/send?phone=${valNomor}&text=${spasi}`;
