@@ -15,10 +15,10 @@ const link = document.querySelector('.input form') // Tombol
     let valNomor = document.getElementById('nomor').value;
     let valTeks = document.getElementById('teks').value;
     let hasil = ``;
-    let unicode = valTeks.split(' ').join('%20');
+    let spasi = valTeks.split(' ').join('%20');
 
     if (valTeks !== '') {
-      hasil = `https://api.whatsapp.com/send?phone=${valNomor}&text=${unicode}`;
+      hasil = `https://api.whatsapp.com/send?phone=${valNomor}&text=${spasi}`;
     } else if (valTeks == '') {
       hasil =  `https://api.whatsapp.com/send?phone=${valNomor}`;
     }
@@ -37,7 +37,7 @@ const link = document.querySelector('.input form') // Tombol
     setTimeout(() => {
       selector.contLink.innerHTML = /*html*/`
       <h1><img src="img/img.png" alt="Whatsapp"> Direct-WA</h1>
-      <h3><span>Send Whatsapp</span> Message without saving the number</h3>
+      <h3><span>Send Whatsapp</span> Message without saving the number, by <span class="target"></span></h3>
       `
     }, 3000);
   });
