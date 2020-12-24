@@ -1,7 +1,7 @@
 # Tentang Repo
-Cara termudah mengirim pesan whatsapp tanpa harus mengesave nomor yang dituju
+Cara termudah mengirim pesan whatsapp tanpa harus mengesave nomor yang dituju. Dibuat menggunakan Bootstrap 4 dan Vanilla Javascript
 
-Dibuat menggunakan Bootstrap 4 dan Vanilla Javascript
+<hr>
 
 [![Build Status](https://travis-ci.org/mattboldt/typed.js.svg?branch=typed-2.0)](https://travis-ci.org/mattboldt/typed.js)
 [![Code Climate](https://codeclimate.com/github/mattboldt/typed.js/badges/gpa.svg)](https://codeclimate.com/github/mattboldt/typed.js)
