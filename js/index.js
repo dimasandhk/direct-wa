@@ -3,7 +3,7 @@ const selector = {
 };
 
 var typed = new Typed('.target', { // Typed JS
-  strings: [", by Dimas Andhika", ", by @DIMAS.NGODING"],
+  strings: [" Dimas Andhika", " @DIMAS.NGODING"],
   typeSpeed: 50,
   loop: true,
   backDelay: 1000,

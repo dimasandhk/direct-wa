@@ -36,14 +36,22 @@ body {
 }
 
 .input input:focus {
-  border: 1px solid #29AC00;
+  border: 2px solid #29AC00;
   padding: 0 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .input textarea {
   margin-top: 30px;
   padding: 10px;
   margin-bottom: 20px;
+}
+
+.input textarea:focus {
+  border: 2px solid #29AC00;
+  -webkit-transition: 1s;
+  transition: 1s;
 }
 
 .input .btn-primary {
