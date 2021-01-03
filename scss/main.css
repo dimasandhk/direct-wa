@@ -62,4 +62,16 @@ body {
 .input .btn-primary:hover {
   background-color: #249b00;
 }
+
+@media only screen and (max-width: 768px) {
+  .judul h3 {
+    font-size: 16px;
+  }
+  .judul h3 span {
+    font-size: 20px;
+  }
+  .input textarea {
+    width: 20em;
+  }
+}
 /*# sourceMappingURL=main.css.map */
