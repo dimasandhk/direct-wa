@@ -1,5 +1,7 @@
-# Tentang Repo
-Cara termudah mengirim pesan whatsapp tanpa harus mengesave nomor yang dituju. Dibuat menggunakan Bootstrap 4 dan Vanilla Javascript. Untuk efek typingnya menggunakan TypedJS
+# About
+
+The easiest way to send whatsapp messages without having to save the destination number. Created using Bootstrap 4 and Vanilla Javascript. For the effect of typing, use TypedJS
+
 <hr>
 
 [![Build Status](https://travis-ci.org/mattboldt/typed.js.svg?branch=typed-2.0)](https://travis-ci.org/mattboldt/typed.js)
@@ -38,14 +40,14 @@ This is really all you need to get going.
 
 ```javascript
 // Can also be included with a regular script tag
-import Typed from 'typed.js';
+import Typed from "typed.js";
 
 var options = {
-  strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
-  typeSpeed: 40
+  strings: ["<i>First</i> sentence.", "&amp; a second sentence."],
+  typeSpeed: 40,
 };
 
-var typed = new Typed('.element', options);
+var typed = new Typed(".element", options);
 ```
 
 ## Wonderful sites that have used (or are using) Typed.js
@@ -104,9 +106,9 @@ This allows bots and search engines, as well as users with JavaScript disabled, 
 You can pause in the middle of a string for a given amount of time by including an escape character.
 
 ```javascript
-var typed = new Typed('.element', {
+var typed = new Typed(".element", {
   // Waits 1000ms after typing "First"
-  strings: ['First ^1000 sentence.', 'Second sentence.']
+  strings: ["First ^1000 sentence.", "Second sentence."],
 });
 ```
 
@@ -115,9 +117,9 @@ var typed = new Typed('.element', {
 In the following example, this would only backspace the words after "This is a"
 
 ```javascript
-var typed = new Typed('.element', {
-  strings: ['This is a JavaScript library', 'This is an ES6 module'],
-  smartBackspace: true // Default value
+var typed = new Typed(".element", {
+  strings: ["This is a JavaScript library", "This is an ES6 module"],
+  smartBackspace: true, // Default value
 });
 ```
 
@@ -126,8 +128,8 @@ var typed = new Typed('.element', {
 The following example would emulate how a terminal acts when typing a command and seeing its result.
 
 ```javascript
-var typed = new Typed('.element', {
-  strings: ['git push --force ^1000\n `pushed to origin with option force`']
+var typed = new Typed(".element", {
+  strings: ["git push --force ^1000\n `pushed to origin with option force`"],
 });
 ```
 
@@ -160,16 +162,16 @@ Check out the WebComponent: https://github.com/Orlandster/wc-typed-js
 ## Customization
 
 ```javascript
-var typed = new Typed('.element', {
+var typed = new Typed(".element", {
   /**
    * @property {array} strings strings to be typed
    * @property {string} stringsElement ID of element containing string children
    */
   strings: [
-    'These are the default values...',
-    'You know what you should do?',
-    'Use your own!',
-    'Have a great day!'
+    "These are the default values...",
+    "You know what you should do?",
+    "Use your own!",
+    "Have a great day!",
   ],
   stringsElement: null,
 
@@ -209,7 +211,7 @@ var typed = new Typed('.element', {
    * @property {boolean} fadeOutDelay Fade out delay in milliseconds
    */
   fadeOut: false,
-  fadeOutClass: 'typed-fade-out',
+  fadeOutClass: "typed-fade-out",
   fadeOutDelay: 500,
 
   /**
@@ -225,7 +227,7 @@ var typed = new Typed('.element', {
    * @property {boolean} autoInsertCss insert CSS for cursor and fadeOut into HTML <head>
    */
   showCursor: true,
-  cursorChar: '|',
+  cursorChar: "|",
   autoInsertCss: true,
 
   /**
@@ -242,7 +244,7 @@ var typed = new Typed('.element', {
   /**
    * @property {string} contentType 'html' or 'null' for plaintext
    */
-  contentType: 'html',
+  contentType: "html",
 
   /**
    * Before it begins typing
@@ -314,7 +316,7 @@ var typed = new Typed('.element', {
    * After destroy
    * @param {Typed} self
    */
-  onDestroy: (self) => {}
+  onDestroy: (self) => {},
 });
 ```
 

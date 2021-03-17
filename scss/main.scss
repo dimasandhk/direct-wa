@@ -1,8 +1,8 @@
 // Google Fonts
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
 }
 
@@ -18,7 +18,7 @@ body {
   }
   h3 {
     span {
-      color: #29AC00;
+      color: #29ac00;
     }
     font-weight: 400;
   }
@@ -29,7 +29,7 @@ body {
   margin-top: 30px;
   input {
     &:focus {
-      border: 2px solid #29AC00;
+      border: 2px solid #29ac00;
       padding: 0 10px;
       transition: 1s;
     }
@@ -39,7 +39,7 @@ body {
   }
   textarea {
     &:focus {
-      border: 2px solid #29AC00;
+      border: 2px solid #29ac00;
       transition: 1s;
     }
     margin-top: 30px;
@@ -50,8 +50,8 @@ body {
     &:hover {
       background-color: #249b00;
     }
-    background-color: #29AC00;
-    border: 1px solid #29AC00;
+    background-color: #29ac00;
+    border: 1px solid #29ac00;
   }
 }
 
